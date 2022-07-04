@@ -1,0 +1,12 @@
+.posJogo{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    font-size: 90px;
+}
+
+#dvjogo{
+    width: 460px;
+    height: 460px;
+    align-content: flex-start;
+}

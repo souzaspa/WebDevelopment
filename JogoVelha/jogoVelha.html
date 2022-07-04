@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name= viewport content= width=device-width initial-scale=1.0>
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+    <div class="d-flex justify-content-center">
+        <div id="dvmenu">
+            <button class="btn btn-lg btn-primary text-white rounded-5 mx-5 my-2" onclick="inicia()">Jogar</button>
+            <div id="dvQuemComeca" class="text-white"></div><br>
+        </div>
+    </div>
+    <div class="my-5 d-flex justify-content-center">
+        <div id="dvjogo" class="d-flex flex-wrap">
+            <div id="p1" class="posJogo m-0 p-0 d-flex justify-content-center align-item-center border-bottom border-2 border-white" onclick="jogar(1)"></div>
+            <div id="p2" class="posJogo m-0 p-0 d-flex justify-content-center align-item-center border-bottom border-start border-2 border-white" onclick="jogar(2)"></div>
+            <div id="p3" class="posJogo m-0 p-0 d-flex justify-content-center align-item-center border-bottom border-start border-2 border-white" onclick="jogar(3)"></div>
+            <div id="p4" class="posJogo m-0 p-0 d-flex justify-content-center align-item-center border-bottom border-2 border-white" onclick="jogar(4)"></div>
+            <div id="p5" class="posJogo m-0 p-0 d-flex justify-content-center align-item-center border-bottom border-start border-2 border-white" onclick="jogar(5)"></div>
+            <div id="p6" class="posJogo m-0 p-0 d-flex justify-content-center align-item-center border-bottom border-start border-2 border-white" onclick="jogar(6)"></div>
+            <div id="p7" class="posJogo m-0 p-0 d-flex justify-content-center align-item-center" onclick="jogar(7)"></div>
+            <div id="p8" class="posJogo m-0 p-0 d-flex justify-content-center align-item-center border-start border-2 border-white" onclick="jogar(8)"></div>
+            <div id="p9" class="posJogo m-0 p-0 d-flex justify-content-center align-item-center border-start border-2 border-white" onclick="jogar(9)"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
